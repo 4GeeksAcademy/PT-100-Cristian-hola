@@ -47,11 +47,17 @@ table {
 	border-spacing: 0;
 }
 
+body{
+    background-color: black;
+}
+
 .Post{
     display: flex;        
     flex-direction: column;
     max-width: 40%;
     justify-self: center;
+    background-color: white;
+    margin-top: 4%;
 }
 
 .Post__Header{
@@ -81,7 +87,10 @@ table {
     display: flex;
 }
 
-.Footertext{
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+.Footertext, .Footertext__1{
+    margin: 0.5rem;
+}
+
+.Post__Img{
+    width: 100%;
 }
